@@ -32,3 +32,8 @@ public class Application {
         };
     }
 }
+
+/* Basicamente quando você coloca a anotação @Bean, você está dizendo pro Spring que quer criar esse
+    objeto e deixar ele disponível para outras classes utilizarem ele como dependência, por exemplo. */
+
+// TODO @Bean devem estar nas classes de configuração da nossa aplicação
